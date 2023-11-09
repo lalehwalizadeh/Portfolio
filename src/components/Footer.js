@@ -21,7 +21,7 @@ export default function Footer() {
     return (
         <div>
             <Container fluid>
-                <div className='copyright'>copyright &copy;2023 portfolio. All Right Reserved</div>
+                <div className='copyright'> &copy;2023 portfolio. All Right Reserved</div>
                 <div>
                     <ul>
 
