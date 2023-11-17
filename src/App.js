@@ -8,11 +8,12 @@ import Contact from "./components/Contact"
 import Projects from "./components/Projects"
 import Footer from "./components/Footer"
 import Works from "./components/Works"
-
+import { PageAnimation } from "./components/Animation"
 const App = () => {
 
 
   return (
+    <PageAnimation>
     <div className="App">
       <header id="header">
         <Navbar />
@@ -34,7 +35,7 @@ const App = () => {
         <Footer />
       </footer>
     </div>
-
+    </PageAnimation>
   )
 }
 

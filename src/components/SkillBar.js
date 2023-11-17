@@ -7,11 +7,11 @@ export default function SkillBar() {
     return (
         <div>
             <div className="container inline">
-                <h2 className="title-text"> Programming Language  </h2>
+                <h2 className="title-text"> Programming Skills  </h2>
                 <div className="skill-box">
                     <span className="title"> HTML </span>
                     <div>
-                        <ProgressBar completed={85} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
+                        <ProgressBar completed={95} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
 
             
                     </div>
@@ -20,7 +20,7 @@ export default function SkillBar() {
                 <div className="skill-box">
                     <span className="title"> CSS </span>
                     <div >
-                        <ProgressBar completed={80} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
+                        <ProgressBar completed={90} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
 
                      
                     </div>
@@ -29,7 +29,7 @@ export default function SkillBar() {
                 <div className="skill-box">
                     <span className="title"> Bootstrap  </span>
                     <div >
-                        <ProgressBar completed={60} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
+                        <ProgressBar completed={70} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
 
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function SkillBar() {
                 <div className="skill-box">
                     <span className="title"> JavaScript </span>
                     <div >
-                        <ProgressBar completed={70} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
+                        <ProgressBar completed={85} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
 
                       
                     </div>
@@ -46,7 +46,7 @@ export default function SkillBar() {
                 <div className="skill-box">
                     <span className="title"> React JS</span>
                     <div >
-                        <ProgressBar completed={30} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
+                        <ProgressBar completed={75} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
 
                     </div>
                 </div>
@@ -87,9 +87,9 @@ export default function SkillBar() {
                     </div>
                 </div>
                 <div className="skill-box">
-                    <span className="title"> Tailoring  </span>
+                    <span className="title"> Graphic design  </span>
                     <div >
-                        <ProgressBar completed={75} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
+                        <ProgressBar completed={40} animateOnRender={true} bgColor="rgb(31, 83, 179)" />
                     </div>
                 </div>
             </div>
