@@ -87,3 +87,15 @@
     display: flex;
 }
 
+.flip{
+	animation: span 2s linear;
+	
+}
+@keyframes span{
+	60%{
+	  transform: scale(1);
+	}
+	60%{
+		transform: scale(1.04);
+	  }
+}

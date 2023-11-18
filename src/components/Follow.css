@@ -70,3 +70,15 @@ h5 {
   resize: none;
 }
 
+.anim{
+  animation:spain 2s linear infinite;
+}
+
+@keyframes spain{
+  0%,100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.15);
+  }
+}
