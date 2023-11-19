@@ -11,7 +11,7 @@ export default function Home() {
 				className='side'
 				variants={{
 					hidden: { opacity: 0, y: 100 },
-					visible: { opacity: 1, y: 5 },
+					visible: { opacity: 1, y: 5.01 },
 				}}
 				initial='hidden'
 				animate='visible'
