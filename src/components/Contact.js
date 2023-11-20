@@ -45,8 +45,8 @@ export default function Contact() {
 	};
 
 	const iconSize = {
-		height: 30,
-		width: 25,
+		height: 25,
+		width: 20,
 		color: 'rgba(27, 112, 223, 0.71)',
 	};
 	return (
