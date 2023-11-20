@@ -45,7 +45,7 @@ export default function Contact() {
 	};
 
 	const iconSize = {
-		height: 25,
+		height: 30,
 		width: 25,
 		color: 'rgba(27, 112, 223, 0.71)',
 	};
@@ -112,22 +112,56 @@ export default function Contact() {
 
 					<h5> Follow Me </h5>
 
-					<a href='https://x.com/lwalizadeh?s=11&t=8mujEK_kxt7z7wytRsNxsg' className='anim'>
-						<FaTwitter style={iconSize} />
-					</a>
-					<a href='https://t.me/Luna_Suk' className='anim'>
-						<FaTelegram style={iconSize} />
-					</a>
-					<a href='https://facebook.com/' className='anim'>
-						<FaFacebook style={iconSize} />
-					</a>
+					<div className='wrap'>
+						<div className='butn'>
+							<div className='icon'>
+								<a
+									href='https://x.com/lwalizadeh?s=11&t=8mujEK_kxt7z7wytRsNxsg'
+									className='anim'>
+									<FaTwitter style={iconSize} />
+								</a>
+							</div>
+							<span>Twitter</span>
+						</div>
 
-					<a href='https://www.instagram.com/lalehwalizadeh?igshid=OGQ5ZDc2ODk2ZA== ' className='anim'>
-						<FaInstagram style={iconSize} />
-					</a>
-					<a href='https://wa.me/+93790408842' className='anim'>
-						<FaWhatsapp style={iconSize} />
-					</a>
+						<div className='butn'>
+							<div className='icon'>
+								<a href='https://t.me/Luna_Suk' className='anim'>
+									<FaTelegram style={iconSize} />
+								</a>
+							</div>
+							<span> Telegram </span>
+						</div>
+
+						<div className='butn'>
+							<div className='icon'>
+								<a href='https://facebook.com/' className='anim'>
+									<FaFacebook style={iconSize} />
+								</a>
+							</div>
+							<span> Facebook</span>
+						</div>
+
+						<div className='butn'>
+							<div className='icon'>
+								{' '}
+								<a
+									href='https://www.instagram.com/lalehwalizadeh?igshid=OGQ5ZDc2ODk2ZA== '
+									className='anim'>
+									<FaInstagram style={iconSize} />
+								</a>
+							</div>
+							<span>Instagram</span>
+						</div>
+						<div className='butn'>
+							<div className='icon'>
+								<a href='https://wa.me/+93790408842' className='anim'>
+									<FaWhatsapp style={iconSize} />
+								</a>
+							</div>
+							<span> Whatsapp</span>
+						</div>
+					</div>
 				</div>
 
 				<div className='display '>
