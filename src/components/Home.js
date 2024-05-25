@@ -20,7 +20,7 @@ export default function Home() {
 					<img src={Capture} alt='my_picture' className='img' />
 				</div>
 				<div className='intro'>
-					<h4> Hi, I'm </h4>
+					<h4> Hello, I'm </h4>
 					<h1> Laleh Walizadeh </h1>
 					<h6>Frontend Web Developer</h6>
 					<br />
